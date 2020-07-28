@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Alloy\\Controller' => $baseDir . '/src/Controller.php',
-    'Alloy\\TestController' => $baseDir . '/src/TestController.php',
+    'phpSails\\Controller' => $baseDir . '/src/phpSails/Controller.php',
+    'phpSails\\TestController' => $baseDir . '/src/phpSails/TestController.php',
 );

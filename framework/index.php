@@ -1,8 +1,7 @@
 <?php
     require "vendor/autoload.php";
 
-    use Alloy\TestController;
+    use phpSails\Core;
 
-    $result = new TestController();
-    // var_dump($result->result());
-    echo $result->result();
+    $coreFrameWorkClass = new Core();
+    echo $coreFrameWorkClass->index($_SERVER['REQUEST_URI']);

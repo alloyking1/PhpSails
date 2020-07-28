@@ -7,22 +7,22 @@ namespace Composer\Autoload;
 class ComposerStaticInite56ace9ea3c150d18684c8008bc42c27
 {
     public static $prefixLengthsPsr4 = array (
-        'A' => 
+        'p' => 
         array (
-            'Alloy\\' => 6,
+            'phpSails\\' => 9,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Alloy\\' => 
+        'phpSails\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/phpSails',
         ),
     );
 
     public static $classMap = array (
-        'Alloy\\Controller' => __DIR__ . '/../..' . '/src/Controller.php',
-        'Alloy\\TestController' => __DIR__ . '/../..' . '/src/TestController.php',
+        'phpSails\\Controller' => __DIR__ . '/../..' . '/src/phpSails/Controller.php',
+        'phpSails\\TestController' => __DIR__ . '/../..' . '/src/phpSails/TestController.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
