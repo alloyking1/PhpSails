@@ -5,6 +5,7 @@
     class Core {
 
         public function index($url){
+            
             return $url;
         }
     }
